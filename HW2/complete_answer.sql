@@ -33,8 +33,8 @@ select * from rdata;
 Insert into rdata (a, b, x) values
 ('a', 'b', -111.11);
 
-Insert into rdata (a, b, x) values
-('a', 'b', 111.11);
+Insert into rdata (id, a, b, x) values
+(4, 'a', 'b', 111.11);
 
 # Q6
 
@@ -50,7 +50,7 @@ add column y boolean default false;
 # Q8
 
 delete from rdata
-where id = 1 or id = 2;
+where id = 2;
 
 # Q9
 
