@@ -10,3 +10,9 @@ def pyramid(n):
         for k in range(0,i+1):
             print("*", end = " ")
         print("\r")
+
+
+pyramid(3)
+pyramid(5)
+pyramid(-1)
+pyramid(1.5)

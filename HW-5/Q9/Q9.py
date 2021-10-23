@@ -7,3 +7,8 @@ def panlindrome(string):
     else:
         return False
 
+
+
+panlindrome("kayak")
+panlindrome("hello")
+

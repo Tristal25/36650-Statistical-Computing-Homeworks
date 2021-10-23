@@ -9,3 +9,9 @@ def triangle(k):
         print("\r")
         t += 1
         num += (t-1)
+
+
+triangle(3)
+triangle(6)
+triangle(-1)
+triangle(1.5)

@@ -11,3 +11,7 @@ def one_edit(string1, string2):
         return True
     return False
 
+one_edit("pale", "ple")
+one_edit("pales", "pale")
+one_edit("pale", "bale")
+one_edit("pale", "bake")

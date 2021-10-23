@@ -6,3 +6,5 @@ def remove_punc(string):
     for c in punctuations:
         st = st.replace(c,"")
     return st
+
+remove_punc("Hello in 36-650,& other MSP courses.")

@@ -8,3 +8,8 @@ def transpose(matrix):
             row.append(matrix[j][i])
         trpos.append(row)
     return trpos
+
+X = [[10, 8],
+     [2, 4],
+     [1, 7]]
+transpose(X)
