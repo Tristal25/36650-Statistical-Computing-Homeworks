@@ -9,22 +9,15 @@ class Node:
         # Compare the new value with the parent node
         if self.data:
             if data < self.data:
-                if self.small is None:
-                    self.small = Node(data)
-                else:
-                    self.small.insert(data)
+                if self.small is None: self.small = Node(data)
+                else: self.small.insert(data)
             elif data - self.data >= 10:
-                if self.too_big is None:
-                    self.too_big = Node(data)
-                else:
-                    self.too_big.insert(data)
+                if self.too_big is None: self.too_big = Node(data)
+                else: self.too_big.insert(data)
             elif data >= self.data:
-                if self.big is None:
-                    self.big = Node(data)
-                else:
-                    self.big.insert(data)
-        else:
-            self.data = data
+                if self.big is None: self.big = Node(data)
+                else: self.big.insert(data)
+        else: self.data = data
 
     # Print the tree
     def traversal(self):
